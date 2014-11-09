@@ -1,16 +1,16 @@
-﻿Build started 05/11/2014 00:07:10.
-     1>Project "C:\Users\kiera_000\documents\visual studio 2013\Projects\GLFWPlay\GLFWPlay\GLFWPlay.vcxproj" on node 2 (Build target(s)).
+﻿Build started 09/11/2014 22:59:00.
+     1>Project "C:\Users\Kieran\Documents\GitHub\LearningOpenGL\GLFWPlay\GLFWPlay\GLFWPlay.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\kiera_000\Downloads\glm-0.9.5.4\glm" /I"C:\Users\kiera_000\Downloads\glew-1.11.0-win32\glew-1.11.0\include" /I"C:\Users\kiera_000\Downloads\glfw-3.0.4.bin.WIN32\glfw-3.0.4.bin.WIN32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GLFWPlay.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GLFWPlay.cpp
-         GLFWPlay.cpp
-         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Kieran\Documents\C++Libraries\glew-1.11.0\include" /IC:\Users\Kieran\Documents\C++Libraries\glm /I"C:\Users\Kieran\Documents\C++Libraries\glfw-3.0.4.bin.WIN32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GLFWPlay.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ShaderLoader.cpp
+         ShaderLoader.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kiera_000\documents\visual studio 2013\Projects\GLFWPlay\Debug\GLFWPlay.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\kiera_000\Downloads\glew-1.11.0-win32\glew-1.11.0\lib\Release\Win32" /LIBPATH:"C:\Users\kiera_000\Downloads\glfw-3.0.4.bin.WIN32\glfw-3.0.4.bin.WIN32\lib-msvc120" opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kiera_000\documents\visual studio 2013\Projects\GLFWPlay\Debug\GLFWPlay.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kiera_000\documents\visual studio 2013\Projects\GLFWPlay\Debug\GLFWPlay.lib" /MACHINE:X86 Debug\GLFWPlay.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kieran\Documents\GitHub\LearningOpenGL\GLFWPlay\Debug\GLFWPlay.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Kieran\Documents\C++Libraries\glew-1.11.0\lib\Release\Win32" /LIBPATH:"C:\Users\Kieran\Documents\C++Libraries\glfw-3.0.4.bin.WIN32\lib-msvc120" opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kieran\Documents\GitHub\LearningOpenGL\GLFWPlay\Debug\GLFWPlay.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kieran\Documents\GitHub\LearningOpenGL\GLFWPlay\Debug\GLFWPlay.lib" /MACHINE:X86 Debug\GLFWPlay.obj
          Debug\ShaderLoader.obj
          Debug\stdafx.obj
-         GLFWPlay.vcxproj -> C:\Users\kiera_000\documents\visual studio 2013\Projects\GLFWPlay\Debug\GLFWPlay.exe
-     1>Done Building Project "C:\Users\kiera_000\documents\visual studio 2013\Projects\GLFWPlay\GLFWPlay\GLFWPlay.vcxproj" (Build target(s)).
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         GLFWPlay.vcxproj -> C:\Users\Kieran\Documents\GitHub\LearningOpenGL\GLFWPlay\Debug\GLFWPlay.exe
+     1>Done Building Project "C:\Users\Kieran\Documents\GitHub\LearningOpenGL\GLFWPlay\GLFWPlay\GLFWPlay.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.05
+Time Elapsed 00:00:01.39

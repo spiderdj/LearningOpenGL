@@ -44,7 +44,7 @@ bool CompileShader(GLuint shaderID, const char* ShaderPath, std::string shaderSo
 	//Check it compiled
 	glGetShaderiv(shaderID, GL_COMPILE_STATUS, &result);
 	glGetShaderiv(shaderID, GL_INFO_LOG_LENGTH, &InfoLogLength);
-	std::vector<char> shaderErrorMessage(InfoLogLength);
+	/*std::vector<char> shaderErrorMessage(InfoLogLength);
 	glGetShaderInfoLog(shaderID, InfoLogLength, NULL, &shaderErrorMessage[0]);
 	if (InfoLogLength > 1)
 	{
@@ -54,7 +54,7 @@ bool CompileShader(GLuint shaderID, const char* ShaderPath, std::string shaderSo
 			std::cout << c;
 		}
 		std::cout << std::endl;
-	}
+	}*/
 
 	return result == GL_TRUE;
 }
@@ -82,7 +82,7 @@ GLuint ShaderLoader::LoadShaders(const char* vertexShaderPath, const char* fragm
 	//Check the program
 	glGetProgramiv(programID, GL_LINK_STATUS, &result);
 	glGetProgramiv(programID, GL_INFO_LOG_LENGTH, &InfoLogLength);
-	std::vector<char> programErrorMessage(std::max(InfoLogLength, int(0)));
+	/*std::vector<char> programErrorMessage(std::max(InfoLogLength, int(0)));
 	glGetProgramInfoLog(programID, InfoLogLength, NULL, &programErrorMessage[0]);
 	if (InfoLogLength > 1)
 	{
@@ -93,7 +93,7 @@ GLuint ShaderLoader::LoadShaders(const char* vertexShaderPath, const char* fragm
 		}
 		std::cout << std::endl;
 	}
-
+	*/
 	glDeleteShader(VertexShaderID);
 	glDeleteShader(FragmentShaderID);
 	return programID;

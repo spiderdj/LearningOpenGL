@@ -52,13 +52,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\kiera_000\Downloads\glm-0.9.5.4\glm;C:\Users\kiera_000\Downloads\glew-1.11.0-win32\glew-1.11.0\include;C:\Users\kiera_000\Downloads\glfw-3.0.4.bin.WIN32\glfw-3.0.4.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kieran\Documents\C++Libraries\glew-1.11.0\include;C:\Users\Kieran\Documents\C++Libraries\glm;C:\Users\Kieran\Documents\C++Libraries\glfw-3.0.4.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\kiera_000\Downloads\glew-1.11.0-win32\glew-1.11.0\lib\Release\Win32;C:\Users\kiera_000\Downloads\glfw-3.0.4.bin.WIN32\glfw-3.0.4.bin.WIN32\lib-msvc120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Kieran\Documents\C++Libraries\glew-1.11.0\lib\Release\Win32;C:\Users\Kieran\Documents\C++Libraries\glfw-3.0.4.bin.WIN32\lib-msvc120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -88,6 +88,7 @@
     <ClInclude Include="ShaderLoader.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextureLoader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GLFWPlay.cpp" />
@@ -96,6 +97,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

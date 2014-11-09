@@ -110,7 +110,7 @@ int main(int argc, char* argv[])
 	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_buffer_data), g_color_buffer_data, GL_STATIC_DRAW);
 
-	GLuint shaderProgram = ShaderLoader::LoadShaders("C:/Users/kiera_000/Documents/Visual Studio 2013/Projects/GLFWPlay/Debug/SimpleVertexShader.vertexshader", "C:/Users/kiera_000/Documents/Visual Studio 2013/Projects/GLFWPlay/Debug/SimpleFragmentShader.fragmentshader");
+	GLuint shaderProgram = ShaderLoader::LoadShaders("C:/Users/Kieran/Documents/GitHub/LearningOpenGL/GLFWPlay/Debug/SimpleVertexShader.vertexshader", "C:/Users/Kieran/Documents/GitHub/LearningOpenGL/GLFWPlay/Debug/SimpleFragmentShader.fragmentshader");
 
 	glm::mat4  projectionMatrix = glm::perspective(90.0f, 4.0f / 3.0f, 0.1f, 100.0f);
 	glm::mat4 model = glm::mat4(1.0f);
